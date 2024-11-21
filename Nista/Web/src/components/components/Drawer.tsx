@@ -14,7 +14,7 @@ import {
   CategoryIcon,
   DashboardIcon,
   ProductionQuantityLimitsIcon,
-  SecurityIcon,
+  PersonIcon,
   SettingsIcon,
   TrendingUpIcon,
   LogoutIcon,
@@ -27,10 +27,13 @@ const menuIcons: any = {
   Categories: <CategoryIcon fontSize="small" />,
   Products: <ProductionQuantityLimitsIcon fontSize="small" />,
   Orders: <TrendingUpIcon fontSize="small" />,
+  Users: <PersonIcon fontSize="small" />,
 };
 
 const menuItems = [
   { text: "Overview", path: "/" },
+  { text: "Users", path: "/users" },
+
   // { text: "Categories", path: "/category" },
   // { text: "Products", path: "/product" },
   // { text: "Orders", path: "/sales" },
@@ -38,7 +41,7 @@ const menuItems = [
 
 const generalIcon: any = {
   Settings: <SettingsIcon fontSize="small" />,
-  Security: <SecurityIcon fontSize="small" />,
+  // Security: <SecurityIcon fontSize="small" />,
 };
 
 const SidebarComponent = () => {
